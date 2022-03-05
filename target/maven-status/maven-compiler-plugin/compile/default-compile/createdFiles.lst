@@ -1,0 +1,6 @@
+com\vilaruel\rafael\iaycha\IaychaSpringApplication.class
+com\vilaruel\rafael\iaycha\model\PlayerDecisionsDTO.class
+com\vilaruel\rafael\iaycha\model\PlayerInfoDTO.class
+com\vilaruel\rafael\iaycha\repository\PlayerDecisionsRepository.class
+com\vilaruel\rafael\iaycha\repository\PlayerInfoRepository.class
+com\vilaruel\rafael\iaycha\controller\PlayerController.class
