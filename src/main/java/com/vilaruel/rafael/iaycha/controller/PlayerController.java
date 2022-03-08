@@ -46,7 +46,7 @@ public class PlayerController {
      public ResponseEntity<PlayerInfoDTO> playerCreate(@RequestBody PlayerInfoDTO request){ 
     	 
     	 //StartPlayerDTO response = playerService.start(request); 
-    	 
+    	 //;asss
     	 playerInfo.save(request);    	 
     	 return ResponseEntity.ok().body(request);	  
 	  
