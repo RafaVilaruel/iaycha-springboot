@@ -1,6 +1,9 @@
-C:\Users\rafae\OneDrive\햞ea de Trabalho\iaychaSpring\iaychaSpring\src\main\java\com\vilaruel\rafael\iaycha\controller\PlayerController.java
-C:\Users\rafae\OneDrive\햞ea de Trabalho\iaychaSpring\iaychaSpring\src\main\java\com\vilaruel\rafael\iaycha\repository\PlayerDecisionsRepository.java
-C:\Users\rafae\OneDrive\햞ea de Trabalho\iaychaSpring\iaychaSpring\src\main\java\com\vilaruel\rafael\iaycha\model\PlayerInfoDTO.java
-C:\Users\rafae\OneDrive\햞ea de Trabalho\iaychaSpring\iaychaSpring\src\main\java\com\vilaruel\rafael\iaycha\model\PlayerDecisionsDTO.java
-C:\Users\rafae\OneDrive\햞ea de Trabalho\iaychaSpring\iaychaSpring\src\main\java\com\vilaruel\rafael\iaycha\repository\PlayerInfoRepository.java
-C:\Users\rafae\OneDrive\햞ea de Trabalho\iaychaSpring\iaychaSpring\src\main\java\com\vilaruel\rafael\iaycha\IaychaSpringApplication.java
+C:\Users\rafae\git\iaycha-springboot\src\main\java\com\vilaruel\rafael\iaycha\model\StartPlayerDTO.java
+C:\Users\rafae\git\iaycha-springboot\src\main\java\com\vilaruel\rafael\iaycha\controller\PlayerController.java
+C:\Users\rafae\git\iaycha-springboot\src\main\java\com\vilaruel\rafael\iaycha\config\SwaggerConfig.java
+C:\Users\rafae\git\iaycha-springboot\src\main\java\com\vilaruel\rafael\iaycha\service\PlayerService.java
+C:\Users\rafae\git\iaycha-springboot\src\main\java\com\vilaruel\rafael\iaycha\model\PlayerInfoDTO.java
+C:\Users\rafae\git\iaycha-springboot\src\main\java\com\vilaruel\rafael\iaycha\IaychaSpringApplication.java
+C:\Users\rafae\git\iaycha-springboot\src\main\java\com\vilaruel\rafael\iaycha\repository\PlayerDecisionsRepository.java
+C:\Users\rafae\git\iaycha-springboot\src\main\java\com\vilaruel\rafael\iaycha\repository\PlayerInfoRepository.java
+C:\Users\rafae\git\iaycha-springboot\src\main\java\com\vilaruel\rafael\iaycha\model\PlayerDecisionsDTO.java

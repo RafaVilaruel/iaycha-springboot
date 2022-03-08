@@ -32,27 +32,27 @@ public class PlayerDecisionsDTO implements Serializable {
 	
 	boolean choice;	
 	boolean escape;	
-	boolean goblinIsDead = false;
-	boolean guardIsDead = false;
-	boolean enteredCityAlready = false;
-	boolean oldManFinished = false;
-	boolean mageFinished = false;
-	boolean badKidFinished = false;
-	boolean isPlayerGuilty = false;
-	boolean callHappened = false;
-	boolean talkIaycha = false;
-	boolean lightFire = false;
-	boolean searchPotions = false;
-	boolean hugIaycha = false;
-	boolean enteredForest = false;
-	boolean promiseIaycha = false;
-	boolean goodByeIaycha = false;
-	boolean iaychaIsDead = false;
-	boolean iaychaDeclared = false;
-	boolean miracle = false;
-	boolean dS1, dS2, dS3 = false;
-	boolean lC1, lC2, lC3 = false;
-	boolean goblinKingIsDead = false;
+	boolean goblinIsDead;
+	boolean guardIsDead;
+	boolean enteredCityAlready;
+	boolean oldManFinished;
+	boolean mageFinished;
+	boolean badKidFinished;
+	boolean isPlayerGuilty;
+	boolean callHappened;
+	boolean talkIaycha;
+	boolean lightFire;
+	boolean searchPotions;
+	boolean hugIaycha;
+	boolean enteredForest;
+	boolean promiseIaycha;
+	boolean goodByeIaycha;
+	boolean iaychaIsDead;
+	boolean iaychaDeclared;
+	boolean miracle;
+	boolean dS1, dS2, dS3;
+	boolean lC1, lC2, lC3;
+	boolean goblinKingIsDead;
 	   
 
 }
