@@ -1,25 +1,25 @@
  INSERT INTO PLAYER_INFO (
- PLAYER_NAME,EMAIL,PASSWORD,PLAYER_HP,
- POSITION, PLAYER_WEAPON,SPECIAL_POWER,ENEMY_NAME,
- BAG,BAG_SLOTS, MONSTER_HP,BARBARO_HP,
- ENEMY_HP,PLAYER_POTIONS,POWER_USE,KING_GOBLIN_HP,
- DRAGON_RING) 
+ID,
+PLAYER_NAME, 
+EMAIL, 
+PASSWORD,
+PLAYER_HP,
+POSITION,
+PLAYER_WEAPON,
+PLAYER_DAMAGE,
+SPECIAL_POWER,
+BAG,
+BAG_SLOTS,
+MONSTER_HP,
+MONSTER_NAME,
+MONSTER_DAMAGE,
+PLAYER_POTIONS,
+POWER_USE,
+DRAGON_RING)
+
  VALUES 
- ('Rafael','rafael.vilaruel22@gmail.com','xboxlive24',20,
- 'towngate','sword','nothing','small goblin',
- 'Bolso',6,45,20,
- 20,0,0,90,1),
- ('Heloisa','heloisa2@gmail.com','Heloisa&Helber',20,
- 'city1','Sword X','nothing','small goblin',
- 'Bolso',6,45,20,
- 20,0,0,90,1),
- ('Rafaela','rafaela@gmail.com','levi1024',12,
- 'forest', 'Sword Y','nothing','small goblin',
- 'Mochila',6,45,20,
- 20,0,0,90,1), 
- ('Mariana','mariana@gmail.com','aquariana1924',17,'forest2',
- 'Sword X','nothing','forest goblin','Mochila',
- 6,45,20,20,0,0,90,1),
- ('Loirinha','loirinha@gmail.com','maconhaKurtCobain',5,'forestGoblin',
- 'Sword X','Raio Azul','small goblin','Bolso',
- 6,45,20,20,0,0,90,1);
+ (124146,'Rafael','rafael.vilaruel22@gmail.com','xboxlive24',20,
+ 'towngate','sword',4,'nothing','Bolso',6,45,'small goblin',4,0,0,1),
+ 
+ (124236,'Heloisa','heloisa@gmail.com','heloisa&Helber22',20,
+ 'towngate','Excalibur',6,'nothing','Mochila',6,45,'small goblin',4,0,0,1);

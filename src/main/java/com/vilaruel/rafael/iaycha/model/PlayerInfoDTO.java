@@ -21,7 +21,6 @@ public class PlayerInfoDTO implements Serializable {
 	private static final long serialVersionUID = 1L;
 	
 	@Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "ID")
 	private long id;
 	
@@ -31,13 +30,13 @@ public class PlayerInfoDTO implements Serializable {
 	
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "EMAIL", nullable = false, length = 50)	
-	String Email;
+	String email;
 	
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "PASSWORD", nullable = false, length = 50)	
-	String Password; 
+	String password; 
 	
-	@Column(name = "PLAYER_HP", nullable = false)
+	@Column(name = "PLAYER_HP")
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	int playerHP;
 	
@@ -45,51 +44,47 @@ public class PlayerInfoDTO implements Serializable {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	String position;
 	
-	@Column(name = "PLAYER_WEAPON", nullable = false, length = 50)
+	@Column(name = "PLAYER_WEAPON", length = 50)
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	String playerWeapon;
 	
-	@Column(name = "SPECIAL_POWER", nullable = false, length = 50)
+	@Column(name = "PLAYER_DAMAGE", length = 50)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	int playerDamage;
+	
+	@Column(name = "SPECIAL_POWER", length = 50)
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	String specialPower;
 	
-	@Column(name = "ENEMY_NAME", nullable = false, length = 50)
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	String enemyName;
-	
-	@Column(name = "BAG", nullable = false, length = 50)
+	@Column(name = "BAG", length = 50)
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	String bag;	
 	
-	@Column(name = "BAG_SLOTS", nullable = false)
+	@Column(name = "BAG_SLOTS")
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	int bagSlots;	
 	
-	@Column(name = "MONSTER_HP", nullable = false)
+	@Column(name = "MONSTER_HP")
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	int monsterHP;
 	
-	@Column(name = "BARBARO_HP", nullable = false)
+	@Column(name = "MONSTER_NAME")
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	int barbaroHP;
+	String monsterName;
 	
-	@Column(name = "ENEMY_HP", nullable = false)
+	@Column(name = "MONSTER_DAMAGE")
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	int enemyHP;
+	int monsterDamage;
 	
-	@Column(name = "PLAYER_POTIONS", nullable = false)
+	@Column(name = "PLAYER_POTIONS")
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	int playerPotions;
 	
-	@Column(name = "POWER_USE", nullable = false)
+	@Column(name = "POWER_USE")
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	int powerUse;
 	
-	@Column(name = "KING_GOBLIN_HP", nullable = false)
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	int kingGoblinHP;
-	
-	@Column(name = "DRAGON_RING", nullable = false)
+	@Column(name = "DRAGON_RING")
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	int dragonRing;
 	

@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.vilaruel.rafael.iaycha.model.Player;
 import com.vilaruel.rafael.iaycha.model.PlayerInfoDTO;
 import com.vilaruel.rafael.iaycha.model.StartPlayerDTO;
 import com.vilaruel.rafael.iaycha.repository.PlayerDecisionsRepository;
@@ -30,6 +31,7 @@ public class PlayerController {
 	@Autowired
 	private PlayerInfoRepository playerInfo;	
 	
+	@Autowired
 	private PlayerService playerService;
 	
 	@GetMapping("/playerInfo")
@@ -43,12 +45,10 @@ public class PlayerController {
 	}
 	
      @PostMapping("/player/create") 
-     public ResponseEntity<PlayerInfoDTO> playerCreate(@RequestBody PlayerInfoDTO request){ 
+     public ResponseEntity<Player> playerCreate(@RequestBody StartPlayerDTO request){ 
     	 
-    	 //StartPlayerDTO response = playerService.start(request); 
-    	 //;asss
-    	 playerInfo.save(request);    	 
-    	 return ResponseEntity.ok().body(request);	  
+    	 Player response = playerService.start(request);    	 
+    	 return ResponseEntity.ok().body(response);	  
 	  
 	  }
 	 
